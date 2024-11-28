@@ -17,24 +17,46 @@ struct ContentView: View {
                 .offset(y: -140)
                 .padding(.bottom, -130)
             
+            //Sardar Vallabhbhai Patel Statue
+//            VStack(alignment: .leading) {
+//                Text("Sardar Vallabhbhai Patel")
+//                    .font(.title)
+//                    .foregroundColor(.black)
+//                
+//                HStack {
+//                    Text("STATUE OF UNITY")
+//                    Spacer()
+//                    Text("Gujarat")
+//                }
+//                .font(.subheadline)
+//                .foregroundColor(.secondary)
+//                
+//                Divider()
+//                
+//                Text("About Statue Of Unity")
+//                    .font(.title2)
+//                Text("Description of Statue Of Unity")
+//                
+//            }.padding()
+            
             VStack(alignment: .leading) {
-                Text("Sardar Vallabhbhai Patel")
+                Text("Adiyogi")
                     .font(.title)
                     .foregroundColor(.black)
                 
                 HStack {
-                    Text("STATUE OF UNITY")
+                    Text("The Source of Yoga")
                     Spacer()
-                    Text("Gujarat")
+                    Text("Coimbatore")
                 }
                 .font(.subheadline)
                 .foregroundColor(.secondary)
                 
                 Divider()
                 
-                Text("About Statue Of Unity")
+                Text("About the Adiyogi Shiva")
                     .font(.title2)
-                Text("Description of Statue Of Unity")
+                Text("The Adiyogi Shiva bust is a 34-metre tall, 45-metre long and 25-metre wide steel bust of Shiva with Thirunamam at Coimbatore, Tamil Nadu")
                 
             }.padding()
             Spacer()

@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CircleImage: View {
     var body: some View {
-       Image("StatueOfUnity")
+       Image("Adiyogi")
             .clipShape(Circle())
             .overlay(Circle().stroke(Color.white))
             .shadow(radius: 8)
